@@ -187,3 +187,23 @@ data_table = pd.read_csv('./data/data.csv')
 ```
 
 
+## Reproducibility
+
+All figures can be reproduced using the provided workflow scripts.
+
+Run:
+
+./run.sh
+
+This script generates the following visualizations:
+
+- figs/figure1.png (1D dataset visualization)
+- figs/figure2.png (2D dataset visualization)
+- figs/figure3.png (multi-method comparison)
+- figs/figure4.png (digits dataset t-SNE visualization)
+
+Dependencies:
+- Python 3
+- pandas
+- matplotlib
+- scikit-learn
